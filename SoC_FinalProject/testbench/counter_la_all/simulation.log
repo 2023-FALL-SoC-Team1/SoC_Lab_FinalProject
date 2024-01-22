@@ -1,0 +1,57 @@
+Reading counter_la_all.hex
+counter_la_all.hex loaded into memory
+Memory 5 bytes = 0x6f 0x00 0x00 0x0b 0x13
+VCD info: dumpfile counter_la_all.vcd opened for output.
+LA Test 1 started
+qsort started
+
+Call function qsort() in User Project BRAM  return value passed, 0x0028
+Call function qsort() in User Project BRAM  return value passed, 0x037d
+Call function qsort() in User Project BRAM  return value passed, 0x09ed
+Call function qsort() in User Project BRAM  return value passed, 0x0a6d
+Call function qsort() in User Project BRAM  return value passed, 0x0ca1
+Call function qsort() in User Project BRAM  return value passed, 0x10ab
+Call function qsort() in User Project BRAM  return value passed, 0x120e
+Call function qsort() in User Project BRAM  return value passed, 0x1631
+Call function qsort() in User Project BRAM  return value passed, 0x1787
+Call function qsort() in User Project BRAM  return value passed, 0x2371
+qsort passed
+
+qsort use       4108 clock cycles
+matmul started
+
+Call function matmul() in User Project BRAM return value passed, 0x003e
+Call function matmul() in User Project BRAM return value passed, 0x0044
+Call function matmul() in User Project BRAM return value passed, 0x004a
+Call function matmul() in User Project BRAM return value passed, 0x0050
+Call function matmul() in User Project BRAM return value passed, 0x003e
+Call function matmul() in User Project BRAM return value passed, 0x0044
+Call function matmul() in User Project BRAM return value passed, 0x004a
+Call function matmul() in User Project BRAM return value passed, 0x0050
+Call function matmul() in User Project BRAM return value passed, 0x003e
+Call function matmul() in User Project BRAM return value passed, 0x0044
+Call function matmul() in User Project BRAM return value passed, 0x004a
+Call function matmul() in User Project BRAM return value passed, 0x0050
+Call function matmul() in User Project BRAM return value passed, 0x003e
+Call function matmul() in User Project BRAM return value passed, 0x0044
+Call function matmul() in User Project BRAM return value passed, 0x004a
+Call function matmul() in User Project BRAM return value passed, 0x0050
+matmul passed
+
+matmul use       3574 clock cycles
+fir started
+
+Call function fir() in User Project BRAM  return value passed, 0x0000
+Call function fir() in User Project BRAM  return value passed, 0xfff6
+Call function fir() in User Project BRAM  return value passed, 0xffe3
+Call function fir() in User Project BRAM  return value passed, 0xffe7
+Call function fir() in User Project BRAM  return value passed, 0x0023
+Call function fir() in User Project BRAM  return value passed, 0x009e
+Call function fir() in User Project BRAM  return value passed, 0x0151
+Call function fir() in User Project BRAM  return value passed, 0x021b
+Call function fir() in User Project BRAM  return value passed, 0x02dc
+Call function fir() in User Project BRAM  return value passed, 0x0393
+fir passed
+
+fir use       4918 clock cycles
+LA Test 1 passed

@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Jan 22 07:20:18 2024
+# Process ID: 40345
+# Current directory: /home/ubuntu/SoC_FinalProject/vivado
+# Command line: vivado
+# Log file: /home/ubuntu/SoC_FinalProject/vivado/vivado.log
+# Journal file: /home/ubuntu/SoC_FinalProject/vivado/vivado.jou
+# Running On: ubuntu2004, OS: Linux, CPU Frequency: 2495.996 MHz, CPU Physical cores: 2, Host memory: 10548 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/ubuntu/SoC_FinalProject/vivado/vvd_caravel_fpga/vvd_caravel_fpga.xpr
+update_compile_order -fileset sources_1
+copy_run -name impl_1_copy_1 [get_runs impl_1] -parent_run synth_1
+set_property flow {Vivado Implementation 2022} [get_runs impl_1]
+set_property strategy Performance_NetDelay_high [get_runs impl_1]
+reset_run impl_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+open_run impl_1
